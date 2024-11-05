@@ -7,7 +7,9 @@ terraform {
   }
 }
 
-provider "docker" {}
+provider "docker" {
+  host = "unix:///home/bart/.docker/desktop/docker.sock"
+}
 
 resource "docker_image" "nginx" {
   name         = "nginx:latest"
