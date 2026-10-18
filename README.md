@@ -30,14 +30,7 @@ services:
       SEMAPHORE_ADMIN_EMAIL: admin@localhost
       SEMAPHORE_ADMIN: admin
       SEMAPHORE_ACCESS_KEY_ENCRYPTION: 6vdTsSIahpP/HT8tkm/h/aRy/ABdfA4K8cusae0EtnA=
-      SEMAPHORE_LDAP_ACTIVATED: 'no' # if you wish to use ldap, set to: 'yes' 
-      SEMAPHORE_LDAP_HOST: dc01.local.example.com
-      SEMAPHORE_LDAP_PORT: '636'
-      SEMAPHORE_LDAP_NEEDTLS: 'yes'
-      SEMAPHORE_LDAP_DN_BIND: 'uid=bind_user,cn=users,cn=accounts,dc=local,dc=shiftsystems,dc=net'
-      SEMAPHORE_LDAP_PASSWORD: 'ldap_bind_account_password'
-      SEMAPHORE_LDAP_DN_SEARCH: 'dc=local,dc=example,dc=com'
-      SEMAPHORE_LDAP_SEARCH_FILTER: "(\u0026(uid=%s)(memberOf=cn=ipausers,cn=groups,cn=accounts,dc=local,dc=example,dc=com))"
+      SEMAPHORE_LDAP_ACTIVATED: 'no'
       TZ: UTC
     depends_on:
       - mysql # for postgres, change to: postgres
