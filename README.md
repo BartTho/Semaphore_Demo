@@ -36,22 +36,21 @@
    
 [ubuntu26:vars]   
 ansible_become_exe=sudo.ws   
-
-## Task Template
-**Name:** -> mijndemo1
-**Path to playbook file:** -> playbook.yaml
-**Inventory:** -> mijnIventory
-**Repository:** -> mijnRepo
-**Branch / Tag:** -> main
-**Variable Group:** -> mijn_vars
-**View:** -> All
-
-
-## Task Template
-**Name:** -> mijndemo2
-**Path to playbook file:** -> playbook2.yaml
-**Inventory:** -> mijnIventory
-**Repository:** -> mijnRepo
-**Branch / Tag:** -> main
-**Variable Group:** -> mijn_vars
-**View:** -> All
+  
+## Task Template  
+**Name:** -> mijndemo1  
+**Path to playbook file:** -> playbook.yaml  
+**Inventory:** -> mijnIventory  
+**Repository:** -> mijnRepo  
+**Branch / Tag:** -> main  
+**Variable Group:** -> mijn_vars  
+**View:** -> All  
+  
+## Task Template  
+**Name:** -> mijndemo2  
+**Path to playbook file:** -> playbook2.yaml  
+**Inventory:** -> mijnIventory  
+**Repository:** -> mijnRepo  
+**Branch / Tag:** -> main  
+**Variable Group:** -> mijn_vars  
+**View:** -> All  
