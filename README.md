@@ -1,4 +1,10 @@
-# Installatie Semaphore  
+# Installatie Semaphore   
+We gebruiken een dockercompose  
+- Login op Portainer  
+- voeg toe aan Templates | Custom  
+- Title: semaphore  
+- Description: ...  
+- Web editor    
 ```
 services:
   mysql:
