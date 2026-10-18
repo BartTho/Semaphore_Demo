@@ -26,16 +26,16 @@
 - **User Credentials:** -> ansible
 - **Sudo Credentials (Optional):** -> /
 - **Type:** -> Static
-#### Voorbeeld
-[ubuntu26]
-192.168.157.145
-192.168.157.147
-
-[rocky]
-192.168.157.146
-
-[ubuntu26:vars]
-ansible_become_exe=sudo.ws
+#### Voorbeeld.   
+[ubuntu26]   
+192.168.157.145   
+192.168.157.147   
+    
+[rocky]   
+192.168.157.146  
+   
+[ubuntu26:vars]   
+ansible_become_exe=sudo.ws   
 
 ## Task Template
 **Name:** -> mijndemo1
