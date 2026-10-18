@@ -14,9 +14,9 @@
 **Extra:**
 - ansible_python_interpreter     /usr/bin/python3
 **Environment variables**
---------
+|--------|
 |ansible_connection|ssh|
 |ansible_user|ansible|
 |ansible_sudo_pass|Top.Secret|
 |ansible_become_exe|sudo.ws|
----------
+|---------|
