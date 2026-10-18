@@ -1,5 +1,5 @@
 # Installatie Semaphore   
-We gebruiken een dockercompose  
+We gebruiken een docker-compose  
 - Login op Portainer  
 - voeg toe aan Templates | Custom  
 - Title: semaphore  
