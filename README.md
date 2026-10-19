@@ -86,7 +86,7 @@ ansible_become_exe=sudo.ws
   
 ## Task Template  
 **Name:** -> mijndemo1  
-**Path to playbook file:** -> playbook.yaml  
+**Path to playbook file:** -> playbook.yml  
 **Inventory:** -> mijnIventory  
 **Repository:** -> mijnRepo  
 **Branch / Tag:** -> main  
@@ -95,7 +95,7 @@ ansible_become_exe=sudo.ws
   
 ## Task Template  
 **Name:** -> mijndemo2  
-**Path to playbook file:** -> playbook2.yaml  
+**Path to playbook file:** -> playbook2.yml  
 **Inventory:** -> mijnIventory  
 **Repository:** -> mijnRepo  
 **Branch / Tag:** -> main  
